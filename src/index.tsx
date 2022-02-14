@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import {Calculator} from './App';
 import reportWebVitals from './reportWebVitals';
-
+var a = true;
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Calculator isSienctific={a} />
   </React.StrictMode>,
   document.getElementById('root')
 );
